@@ -10,7 +10,6 @@ function Results() {
                     <h2>{product.name}</h2>
                     <p>{product.shortDescription}</p>
                 </section>
-
             ))}
         </div>
     )
