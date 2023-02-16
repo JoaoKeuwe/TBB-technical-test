@@ -234,6 +234,11 @@ input:focus {
 
 .informations {
     font-size: 1.4rem;
-    padding-bottom: 10px;
+    padding-bottom: 17px;
    
+}
+
+.Icon {
+    color: rgb(0, 202, 252);
+    padding-right: 10px;
 }
