@@ -1,16 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { api } from '../services/mocks/output'
 
-function Results({listProducts}) {
+function Results({ listProducts }) {
   return (
     <div>
+      <h3 className='results'>{api.data.nodes.length} <span>Resultados</span></h3>
+    <div className='container'>
       {listProducts.map((product) => (
-        <section>
+        <section className='card-products'>
           <img src={product.images[0].asset.url} alt="#" />
-          <h2>{product.name}</h2>
-          <p>{product.shortDescription}</p>
+          <h2 className='h2'>{product.name}</h2>
+          
+          <p className='description'>{product.shortDescription}</p>
         </section>
       ))}
+    </div>
     </div>
   )
 }

@@ -10,9 +10,9 @@ function Filters({ setListProducts }) {
         setListProducts(filterProducts)
         console.log('sss',)
     }
-    
+
     const categories = (arrProducts) => {
-        
+
         const arrayNames = arrProducts.map((product) => product.category.name);
         arrayNames.forEach((nameProduct) => {
             if (count[nameProduct]) {
@@ -26,16 +26,23 @@ function Filters({ setListProducts }) {
     }
 
     return (
-        <div>
+        
+        <div className='div-content-filter'>
+            <section className='filter'>
+                <h2>filtros</h2>
+            </section>
+
+            <section className='filters'>
             {categories(api.data.nodes).map((product) => (
-                <section>
-                    <label htmlFor={product} >
+                <article>
+                    <label className='checkbox' htmlFor={product} >
                         <input onClick={handleFilterByCategory} type="checkbox" name="" id={product} />
                         {product} <span>({count[product]})</span>
                     </label>
-                </section>
+                </article>
 
             ))}
+            </section>
 
         </div>
     )

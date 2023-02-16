@@ -1,0 +1,82 @@
+span {
+    color: rgb(56, 188, 109);
+}
+
+body {
+    background-color: rgb(169, 165, 165);
+}
+
+
+.home {
+    display: flex;
+}
+.header {
+    margin-left: 1rem;
+    margin: 1rem 0 1rem 4rem
+}
+
+.results {
+    margin: 2.2rem 0 0 8rem;
+    border-bottom: 1px solid black;
+    max-width: 80%;
+    font-size: 23px;
+}
+
+.filter {
+    margin: 2rem 0 1rem 4rem;
+    border-bottom: 1px solid black;
+    width: 16rem;
+}
+
+.filters {
+    margin: 2rem 0 1rem 4rem;
+
+}
+
+.search-input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 25rem;
+    margin: 1rem 0 2rem 4rem;
+}
+.search-input::placeholder {
+    font-size: 20px;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+   height: 49px;
+    border-bottom: 1px solid black;
+}
+
+.search-icon {
+    background-color: transparent;
+    width: 20px;
+    
+}
+
+.card-products {
+    width: 25rem;
+  
+    margin: 10rem 3rem 5rem 0;
+}
+
+.h2 {
+    font-size: 23px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0;
+    width: fit-content;
+    justify-content: center;
+}
+
+.description {
+    font-size: 18px;
+}
