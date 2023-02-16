@@ -95,9 +95,11 @@
     .header {
         height: 6rem;
     }
+
     .image-logo {
         margin-top: 20px;
     }
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -114,8 +116,8 @@
     }
 
     .container-information {
-       margin-right: 3rem;
-       margin-top: -0.1rem;
+        margin-right: 3rem;
+        margin-top: -0.1rem;
     }
 
     .informations {
@@ -150,12 +152,10 @@
 
     .button-filter {
         margin-left: 1rem;
-        
+
     }
 
-    .results {
-       
-    }
+    .results {}
 
     .container-content {
         display: flex;
@@ -189,6 +189,7 @@
         margin-right: 4rem;
         font-size: 23px;
     }
+
     .maps {
         width: 25rem;
 
@@ -207,7 +208,7 @@
         width: 18rem;
         margin: 5rem 5rem 0 0;
     }
-    
+
 
 }
 
@@ -225,6 +226,7 @@
         margin-top: -3rem;
         margin-right: 3rem;
     }
+
     .image-logo {
         width: 100px;
     }
@@ -233,22 +235,20 @@
         margin: 0 0 0 0;
     }
 
-  
-   
-    
+
+
+
 
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 470px) { 
 
     .image-card {
-      width: 200px;
+        width: 200px;
 
     }
 
     .card-products {
-        
-        
         justify-content: center;
     }
 
@@ -256,8 +256,8 @@
         width: 20rem;
     }
 
-  
-   
-    
+
+
+
 
 }
