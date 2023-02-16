@@ -42,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1210px) {
     .maps {
         width: 23rem;
         height: 12rem;
@@ -90,11 +90,20 @@
 }
 
 @media screen and (max-width: 900px) {
+
+
+    .header {
+        height: 6rem;
+    }
+    .image-logo {
+        margin-top: 20px;
+    }
     .footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 2rem;
     }
 
     .maps {
@@ -105,9 +114,8 @@
     }
 
     .container-information {
-        width: 20rem;
-        margin-left: 3rem;
-
+       margin-right: 3rem;
+       margin-top: -0.1rem;
     }
 
     .informations {
@@ -129,7 +137,127 @@
 }
 
 @media screen and (max-width: 840px) {
-   
+    .filter {
+        display: none;
+    }
+
+    .filters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 2rem;
+    }
+
+    .button-filter {
+        margin-left: 1rem;
+        
+    }
+
+    .results {
+       
+    }
+
+    .container-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        margin-left: 7rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-content-filter {
+        display: flex;
+        justify-content: center;
+        margin-left: -3rem;
+    }
+
+    .search-input {
+        width: 17rem;
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
+@media screen and (max-width: 550px) {
 
+    .options {
+        margin-top: -4rem;
+        margin-right: 4rem;
+        font-size: 23px;
+    }
+    .maps {
+        width: 25rem;
+
+    }
+
+    .button-filter {
+        width: 10rem;
+    }
+
+    .search-input {
+        width: 15rem;
+        margin-left: -0.5rem;
+    }
+
+    .card-products {
+        width: 18rem;
+        margin: 5rem 5rem 0 0;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .card-products {
+        width: 20rem;
+        display: flex;
+        margin-left: 3.6rem;
+
+    }
+
+    .options {
+        font-size: 20px;
+        margin-top: -3rem;
+        margin-right: 3rem;
+    }
+    .image-logo {
+        width: 100px;
+    }
+
+    .container {
+        margin: 0 0 0 0;
+    }
+
+  
+   
+    
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .image-card {
+      width: 200px;
+
+    }
+
+    .card-products {
+        
+        
+        justify-content: center;
+    }
+
+    .maps {
+        width: 20rem;
+    }
+
+  
+   
+    
+
+}

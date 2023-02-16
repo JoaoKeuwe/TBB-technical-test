@@ -41,13 +41,17 @@ function Home() {
         </button>
       </form>
 
+    <div className='container-content'>
       <div className='home'>
         <Filters setListProducts={setListProducts} />
-
-        <Results listProducts={listProducts} />
-
-
       </div>
+
+      <div>
+      <Results listProducts={listProducts} />
+      </div>
+      </div>
+
+
     </div>
   )
 }

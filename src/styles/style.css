@@ -13,6 +13,9 @@ body {
 .home {
     display: flex;
 }
+.container-content {
+display: flex;
+}
 
 /* NAVBAR */
 .header {
@@ -72,7 +75,7 @@ a {
 .search-button {
     background-color: transparent;
     border: none;
-    height: 45px;
+    height: 46px;
     border-bottom: 1px solid black;
 }
 
@@ -114,11 +117,12 @@ input:focus {
 
 .results {
     margin: 2.2rem 0 0 4rem;
-    border-bottom: 1px solid black;
-    max-width: 68vw;
     font-size: 23px;
     height: 43px;
 }
+
+
+
 
 .h2 {
     display: flex;

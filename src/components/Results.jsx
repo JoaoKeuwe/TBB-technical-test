@@ -5,7 +5,6 @@ function Results({ listProducts }) {
   return (
     <div>
       <h3 className='results'>{listProducts.length <= 0 ? 'Nenhum resultado encontrado' : `${listProducts.length} Resultados`} </h3>
-
       <div className='container' id='home'>
         {listProducts.map((product) => (
           <section className='card-products'>
