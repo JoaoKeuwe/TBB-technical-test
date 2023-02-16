@@ -150,3 +150,52 @@ input:focus {
 .filters {
     margin: 2rem 0 1rem 4rem;
 }
+
+/* footer  */
+.footer {
+    background-color: rgb(62, 61, 61);
+    height: 30vh;
+    bottom: 0;
+}
+
+.maps {
+    margin: 2rem 0 0 15rem;
+    width: 500px;
+    height: 200px;
+}
+.container-location {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.location {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+.logo-footer {
+    width: 15rem;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15rem;
+    margin-right: 10rem;
+}
+
+.container-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: -10rem 0 0 60rem;
+    color: white;
+}
+
+.informations {
+    padding-bottom: 10px;
+    font-size: 22px;
+}

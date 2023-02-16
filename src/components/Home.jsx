@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import '../styles/style.css'
 
 import Filters from '../components/Filters'
+import Footer from './Footer'
 function Home() {
   const [searchBar, setSearchBar] = useState()
   const [listProducts, setListProducts] = useState(api.data.nodes)
@@ -44,6 +45,8 @@ function Home() {
       <Filters setListProducts={setListProducts} />
       
       <Results listProducts={listProducts} />
+
+     
       </div>
     </div>
   )
