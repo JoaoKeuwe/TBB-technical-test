@@ -13,8 +13,9 @@ body {
 .home {
     display: flex;
 }
+
 .container-content {
-display: flex;
+    display: flex;
 }
 
 /* NAVBAR */
@@ -112,7 +113,7 @@ input:focus {
 }
 
 .image-card:hover {
-    transform: rotate(10deg);
+    transform: scale(1.1);
 }
 
 .results {
@@ -120,9 +121,6 @@ input:focus {
     font-size: 23px;
     height: 43px;
 }
-
-
-
 
 .h2 {
     display: flex;
@@ -156,7 +154,7 @@ input:focus {
     border-bottom: 1px solid black;
     width: 16rem;
     height: 45px;
-    
+
 }
 
 .button-filter {
@@ -167,13 +165,13 @@ input:focus {
     border: none;
     font-size: 15px;
     color: white;
-    
-    background-image: linear-gradient( 109.6deg,  rgb(147, 169, 187) 11.2%, rgb(83, 100, 106) 100.2% );
+
+    background-image: linear-gradient(109.6deg, rgb(147, 169, 187) 11.2%, rgb(83, 100, 106) 100.2%);
 }
 
 .button-filter:hover {
-    
-    background-image: linear-gradient( 109.6deg,  rgba(145, 167, 185, 0.546) 11.2%, rgba(86, 98, 102, 0.774) 100.2% );
+
+    background-image: linear-gradient(109.6deg, rgba(145, 167, 185, 0.546) 11.2%, rgba(86, 98, 102, 0.774) 100.2%);
 }
 
 .checkbox-name {
@@ -188,7 +186,7 @@ input:focus {
 
 /* footer  */
 .footer {
-   background-image: linear-gradient(110.3deg, rgb(53, 58, 63) 8.8%, rgba(52, 54, 56, 0.8) 95.1%);
+    background-image: linear-gradient(110.3deg, rgb(53, 58, 63) 8.8%, rgba(52, 54, 56, 0.8) 95.1%);
     position: relative;
     bottom: 0;
     display: flex;
@@ -208,9 +206,7 @@ input:focus {
     margin-top: 3rem;
 }
 
-.location {
- 
-}
+.location {}
 
 .logo-footer {
     width: 250px;
@@ -229,13 +225,13 @@ input:focus {
     justify-content: flex-start;
     align-items: flex-start;
     color: white;
-    
+
 }
 
 .informations {
     font-size: 1.4rem;
     padding-bottom: 17px;
-   
+
 }
 
 .Icon {
