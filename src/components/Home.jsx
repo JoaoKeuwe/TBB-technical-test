@@ -4,6 +4,7 @@ import IconGlass from '../icons/glass.svg'
 import { api } from '../services/mocks/output'
 import Header from '../components/Header'
 import '../styles/style.css'
+import '../styles/responsive.css'
 import Filters from '../components/Filters'
 
 function Home() {

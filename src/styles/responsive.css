@@ -1,0 +1,135 @@
+@media screen and (max-width: 1480px) {
+    .maps {
+        width: 25rem;
+        height: 12rem;
+        margin-left: -15rem;
+    }
+
+    .container-location {
+        width: 12rem;
+    }
+
+    .logo {
+        margin-top: 6rem;
+    }
+
+    .logo-footer {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .maps {
+        width: 23rem;
+        height: 12rem;
+        margin-left: -20rem;
+    }
+
+    .container-location {
+        width: 19rem;
+    }
+
+    .logo {
+        margin-top: 6rem;
+    }
+
+    .logo-footer {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .maps {
+        width: 23rem;
+        height: 12rem;
+        margin-left: -22rem;
+    }
+
+    .container-information {
+        width: 20rem;
+    }
+
+    .logo {
+        margin-top: 6rem;
+    }
+
+    .logo-footer {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .informations {}
+}
+
+@media screen and (max-width: 990px) {
+    .maps {
+        width: 21rem;
+        height: 12rem;
+        margin-left: -20rem;
+    }
+
+    .container-information {
+        width: 20rem;
+    }
+
+    .logo {
+        margin-top: 6rem;
+    }
+
+    .logo-footer {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maps {
+        width: 30rem;
+        height: 16rem;
+        margin-left: 2rem;
+        display: flex;
+    }
+
+    .container-information {
+        width: 20rem;
+        margin-left: 3rem;
+
+    }
+
+    .informations {
+        font-size: 27px;
+        padding-bottom: 2rem;
+    }
+
+    .logo {
+        margin-top: 6rem;
+    }
+
+    .logo-footer {
+        width: 13rem;
+        display: flex;
+        margin-top: -2rem;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+   
+}
+
+
