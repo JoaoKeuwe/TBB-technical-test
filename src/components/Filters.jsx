@@ -37,7 +37,7 @@ function Filters({ setListProducts }) {
                 <article>
                     <label className='checkbox' htmlFor={product} >
                         <input onClick={handleFilterByCategory} type="checkbox" name="" id={product} />
-                        {product} <span>({count[product]})</span>
+                       <span className='checkbox-name'> {product} </span> <span>({count[product]})</span>
                     </label>
                 </article>
 

@@ -1,5 +1,5 @@
 span {
-    color: rgb(56, 188, 109);
+    color: rgb(255, 255, 255);
 }
 
 body {
@@ -10,13 +10,14 @@ body {
 .home {
     display: flex;
 }
+
 .header {
     margin-left: 1rem;
-    margin: 1rem 0 1rem 4rem
+    margin: 3rem 0 1rem 4rem
 }
 
 .results {
-    margin: 2.2rem 0 0 8rem;
+    margin: 2.2rem 0 0 7rem;
     border-bottom: 1px solid black;
     max-width: 80%;
     font-size: 23px;
@@ -26,6 +27,11 @@ body {
     margin: 2rem 0 1rem 4rem;
     border-bottom: 1px solid black;
     width: 16rem;
+}
+
+.checkbox-name {
+    margin-left: 10px;
+    color: black;
 }
 
 .filters {
@@ -41,6 +47,7 @@ body {
     width: 25rem;
     margin: 1rem 0 2rem 4rem;
 }
+
 .search-input::placeholder {
     font-size: 20px;
 }
@@ -48,19 +55,19 @@ body {
 .search-button {
     background-color: transparent;
     border: none;
-   height: 49px;
+    height: 37px;
     border-bottom: 1px solid black;
 }
 
 .search-icon {
     background-color: transparent;
     width: 20px;
-    
+
 }
 
 .card-products {
     width: 25rem;
-  
+
     margin: 10rem 3rem 5rem 0;
 }
 
