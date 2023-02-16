@@ -25,6 +25,7 @@ function Home() {
     <div>
       <Header />
       <form
+      className='container-home'
         onSubmit={handleSearch}>
         <input
         className='search-input'

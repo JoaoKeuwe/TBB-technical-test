@@ -2,9 +2,13 @@ import React from 'react'
 
 function Header() {
   return (
-    <header className='header'>
-      <h1> O QUE VOCÊ <span>ESTÁ PROCURANDO?</span></h1>
-    </header>
+    <section className='header'>
+      <img className='image-logo' width={120} src="https://thebrooklynbrothers.com/assets/images/logo@2x.png" alt="" />
+      <ul className='informations'>
+        <li className='options' >Inicio</li>
+        <li className='options' >Contatos</li>
+      </ul>
+    </section>
   )
 }
 

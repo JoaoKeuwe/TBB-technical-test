@@ -8,7 +8,7 @@ function Results({ listProducts }) {
     <div className='container'>
       {listProducts.map((product) => (
         <section className='card-products'>
-          <img src={product.images[0].asset.url} alt="#" />
+          <img className='image-card' src={product.images[0].asset.url} alt="#" />
           <h2 className='h2'>{product.name}</h2>
           
           <p className='description'>{product.shortDescription}</p>
