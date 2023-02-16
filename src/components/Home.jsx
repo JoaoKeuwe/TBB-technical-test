@@ -30,7 +30,7 @@ function Home() {
         <input
         className='search-input'
           onChange={handleFilter}
-          type="text" placeholder='BUSQUE AQUI' />
+          type="text" placeholder='BUSQUE AQUI...' />
 
         <button
         className='search-button'
