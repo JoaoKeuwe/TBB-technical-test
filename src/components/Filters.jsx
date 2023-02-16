@@ -25,6 +25,10 @@ function Filters({ setListProducts }) {
 
   }
 
+  const reload = () => {
+    window.location.reload();
+  }
+
   return (
 
     <div className='div-content-filter'>
@@ -33,15 +37,22 @@ function Filters({ setListProducts }) {
       </section>
 
       <section className='filters'>
+        <button
+          onClick={reload}
+          className='button-filter'
+        >Todas as Categorias
+        </button>
+
         {categories(api.data.nodes).map((product) => (
           <article >
+            
             <button
               className="button-filter"
               onClick={handleFilterByCategory}
-              id={product}
-            >
+              id={product}>
               {product}
             </button>
+
           </article>
 
         ))}

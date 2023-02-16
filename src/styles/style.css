@@ -166,7 +166,7 @@ input:focus {
     font-size: 15px;
     color: white;
 
-    background-image: linear-gradient(109.6deg, rgb(147, 169, 187) 11.2%, rgb(83, 100, 106) 100.2%);
+    background-image: linear-gradient(110.3deg, rgb(53, 58, 63) 8.8%, rgba(52, 54, 56, 0.8) 95.1%);
 }
 
 .button-filter:hover {
