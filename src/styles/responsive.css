@@ -241,7 +241,7 @@
 
 }
 
-@media screen and (max-width: 470px) { 
+@media screen and (max-width: 470px) {
 
     .image-card {
         width: 200px;
@@ -250,10 +250,19 @@
 
     .card-products {
         justify-content: center;
+        width: 15rem;
+        margin-left: 0rem;
+        margin-right: 0;
+    }
+
+    .informations {
+        font-size: 24px;
+        margin-left: 3rem;
     }
 
     .maps {
         width: 20rem;
+        margin-left: 1rem;
     }
 
 
