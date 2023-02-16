@@ -245,12 +245,16 @@
 
     .image-card {
         width: 200px;
+    }
 
+    .button-filter {
+        width: 8rem;
     }
 
     .card-products {
         justify-content: center;
         width: 15rem;
+        height: 33rem;
         margin-left: 0rem;
         margin-right: 0;
     }
