@@ -5,7 +5,7 @@ function Results({ listProducts }) {
   return (
     <div>
       <h3 className='results'>{api.data.nodes.length} <span>Resultados</span></h3>
-    <div className='container'>
+    <div className='container' id='home'>
       {listProducts.map((product) => (
         <section className='card-products'>
           <img className='image-card' src={product.images[0].asset.url} alt="#" />

@@ -4,9 +4,8 @@ import IconGlass from '../icons/glass.svg'
 import { api } from '../services/mocks/output'
 import Header from '../components/Header'
 import '../styles/style.css'
-
 import Filters from '../components/Filters'
-import Footer from './Footer'
+
 function Home() {
   const [searchBar, setSearchBar] = useState()
   const [listProducts, setListProducts] = useState(api.data.nodes)
@@ -26,15 +25,15 @@ function Home() {
     <div>
       <Header />
       <form
-      className='container-home'
+        className='container-home'
         onSubmit={handleSearch}>
         <input
-        className='search-input'
+          className='search-input'
           onChange={handleFilter}
           type="text" placeholder='BUSQUE AQUI...' />
 
         <button
-        className='search-button'
+          className='search-button'
           type='submit'
         >
           <img className='search-icon' src={IconGlass} alt="" />
@@ -42,11 +41,11 @@ function Home() {
       </form>
 
       <div className='home'>
-      <Filters setListProducts={setListProducts} />
-      
-      <Results listProducts={listProducts} />
+        <Filters setListProducts={setListProducts} />
 
-     
+        <Results listProducts={listProducts} />
+
+
       </div>
     </div>
   )
