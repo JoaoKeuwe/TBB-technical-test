@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <div className='footer' id='contacts'>
-      <div className='container-location'><p className='location' co></p></div>
+      <div className='container-location'><p ></p></div>
       <section>
 
         {/* consumindo um iframde do google maps  */}

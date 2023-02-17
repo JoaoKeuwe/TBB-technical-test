@@ -167,13 +167,20 @@ input:focus {
     border: none;
     font-size: 15px;
     color: white;
-
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
     background-image: linear-gradient(110.3deg, rgb(53, 58, 63) 8.8%, rgba(52, 54, 56, 0.8) 95.1%);
 }
 
 .button-filter:hover {
 
     background-image: linear-gradient(109.6deg, rgba(145, 167, 185, 0.546) 11.2%, rgba(86, 98, 102, 0.774) 100.2%);
+}
+
+.button-filter:active {
+    -webkit-box-shadow: inset 9px 8px 35px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 9px 8px 35px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 9px 8px 35px -3px rgba(0, 0, 0, 0.75);
+    transform: translate(2px, 1px);
 }
 
 .checkbox-name {
