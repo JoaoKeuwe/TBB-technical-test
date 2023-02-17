@@ -17,11 +17,11 @@ https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-
 
 ## O que foi passado no desafio:
 
-•	Criar um componente de listagem de produtos em que seja possível procurar pelo nome e filtrar pela categoria. Veja o exemplo enviado para servir de inspiração.
-•	Utilizar React.
-•	Utilizar o arquivo productsCategory.json como fonte de dados para os produtos (em anexo)
-•	O componente deve ser responsivo.
-•	Criar um repositório no GIT com o código fonte.
+-	Criar um componente de listagem de produtos em que seja possível procurar pelo nome e filtrar pela categoria. Veja o exemplo enviado para servir de inspiração.
+-	Utilizar React.
+-	Utilizar o arquivo productsCategory.json como fonte de dados para os produtos (em anexo)
+-	O componente deve ser responsivo.
+-	Criar um repositório no GIT com o código fonte.
 
 
 ## Tecnologias utilizadas:
