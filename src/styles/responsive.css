@@ -24,6 +24,12 @@
     }
 }
 
+@media screen and (max-width: 1350px) {
+    .card-products {
+        width: 16rem;
+    }
+}
+
 @media screen and (max-width: 1250px) {
     .maps {
         width: 23rem;
