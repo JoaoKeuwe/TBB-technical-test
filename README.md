@@ -6,10 +6,7 @@ Projeto TBB Lista de produtos 🛒
 
 ## (📱Caso esteja pelo celular é so clicar no link abaixo📱)
 
-
-https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-b324-921c34056032.mp4
-
-
+https://user-images.githubusercontent.com/91097315/219524614-b58f26f9-47d4-4878-975f-bde441b22fc2.mp4
 
 ## Sobre o Projeto
 
@@ -17,11 +14,11 @@ https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-
 
 ## O que foi passado no desafio:
 
-•	Criar um componente de listagem de produtos em que seja possível procurar pelo nome e filtrar pela categoria. Veja o exemplo enviado para servir de inspiração.
-•	Utilizar React.
-•	Utilizar o arquivo productsCategory.json como fonte de dados para os produtos (em anexo)
-•	O componente deve ser responsivo.
-•	Criar um repositório no GIT com o código fonte.
+-	Criar um componente de listagem de produtos em que seja possível procurar pelo nome e filtrar pela categoria. Veja o exemplo enviado para servir de inspiração.
+-	Utilizar React.
+-	Utilizar o arquivo productsCategory.json como fonte de dados para os produtos (em anexo)
+-	O componente deve ser responsivo.
+-	Criar um repositório no GIT com o código fonte.
 
 
 ## Tecnologias utilizadas:
@@ -50,10 +47,10 @@ https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-
 
 ```bash
  # Clonar o repositório
- $ git clone git@github.com:JoaoKeuwe/teste-Kivid.git
+ $ git clone git@github.com:JoaoKeuwe/TBB-technical-test.git
 
  # Entrar no diretório(pasta) da aplicação
- $ cd testeKivid
+ $ cd TBB-technical-test
 
  # Instalar todas as dependencias de desenvolvimento do projeto (necessita ter o Node(npm) instalado)
  $ npm install
