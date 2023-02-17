@@ -18,11 +18,10 @@ body {
     display: flex;
 }
 
-/* NAVBAR */
+/* --------------NAVBAR-------------- */
 .header {
     font-size: 1.5rem;
     background-image: linear-gradient(110.3deg, rgb(53, 58, 63) 8.8%, rgba(52, 54, 56, 0.8) 95.1%);
-
 }
 
 .image-logo {
@@ -52,7 +51,7 @@ a {
     color: rgb(0, 110, 161);
 }
 
-/* SEARCH INPUT  */
+/* --------------SEARCH INPUT--------------  */
 .search-input {
     height: 30px;
     border: none;
@@ -91,7 +90,7 @@ input:focus {
     width: 20px;
 }
 
-/* PRODUCTS LIST */
+/* --------------PRODUCTS LIST-------------- */
 
 .card-products {
     display: flex;
@@ -150,7 +149,7 @@ input:focus {
 
 }
 
-/* PRODUCTS CATEGORYS  */
+/* --------------PRODUCTS CATEGORYS--------------  */
 .filter {
     margin: 2rem 0 1rem 4rem;
     border-bottom: 1px solid black;
@@ -188,7 +187,7 @@ input:focus {
     align-items: center;
 }
 
-/* footer  */
+/* --------------FOOTER--------------  */
 .footer {
     background-image: linear-gradient(110.3deg, rgb(53, 58, 63) 8.8%, rgba(52, 54, 56, 0.8) 95.1%);
     position: relative;
@@ -205,12 +204,6 @@ input:focus {
     margin-bottom: 2rem;
     border-radius: 30px;
 }
-
-.container-location {
-    margin-top: 3rem;
-}
-
-.location {}
 
 .logo-footer {
     width: 250px;
@@ -229,13 +222,11 @@ input:focus {
     justify-content: flex-start;
     align-items: flex-start;
     color: white;
-
 }
 
 .informations {
     font-size: 1.4rem;
     padding-bottom: 17px;
-
 }
 
 .Icon {

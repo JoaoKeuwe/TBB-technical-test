@@ -1,6 +1,6 @@
 import React from 'react'
-import { api } from '../services/mocks/output'
 
+// renderização dos cards ConstantSourceNode, imagem titulo e descrição 
 function Results({ listProducts }) {
   return (
     <div>

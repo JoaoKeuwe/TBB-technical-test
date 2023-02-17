@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { api } from '../services/mocks/output'
 
+// Logicas usadas para fazer a filtragem dos dados e a renderização dos botões com as categorias 
 function Filters({ setListProducts }) {
   const [count] = useState({})
 
@@ -29,6 +30,7 @@ function Filters({ setListProducts }) {
     window.location.reload();
   }
 
+  // renderizando o menu lateral esquerdo com as informações para a filtragem de dados 
   return (
 
     <div className='div-content-filter'>

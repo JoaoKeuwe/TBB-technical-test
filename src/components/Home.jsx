@@ -7,10 +7,11 @@ import '../styles/style.css'
 import '../styles/responsive.css'
 import Filters from '../components/Filters'
 
+// logica de filtragem do input principal 
 function Home() {
   const [searchBar, setSearchBar] = useState()
   const [listProducts, setListProducts] = useState(api.data.nodes)
-  const [productsBackup, setProductsBackup] = useState(api.data.nodes)
+  const [productsBackup] = useState(api.data.nodes)
 
   const handleFilter = (event) => {
     setSearchBar(event.target.value);
@@ -22,6 +23,7 @@ function Home() {
     setListProducts(filterProducts)
   }
 
+  // renderizando os componentes que irão aparecer na página inicial
   return (
     <div>
       <Header />

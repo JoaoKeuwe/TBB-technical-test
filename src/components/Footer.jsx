@@ -1,11 +1,13 @@
 import React from 'react'
 
+// criando o footer com informações para contato 
 function Footer() {
   return (
     <div className='footer' id='contacts'>
-      <div className='container-location'><p className='location'></p></div>
+      <div className='container-location'><p className='location' co></p></div>
       <section>
 
+        {/* consumindo um iframde do google maps  */}
         <iframe className='maps' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14142.662750407999!2d-48.491403757914206!3d-27.603892531442302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273ea848636a4d%3A0x6f700ac19098c89d!2sLagoa%20da%20Concei%C3%A7%C3%A3o%2C%20Florian%C3%B3polis%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1676529058926!5m2!1spt-BR!2sbr"
           title='keuwe'
 
@@ -13,7 +15,7 @@ function Footer() {
         </iframe>
       </section>
 
-
+      {/* renderizando as informações  */}
       <section className='container-information'>
         <p className='informations'>
           <span class="material-symbols-outlined Icon">

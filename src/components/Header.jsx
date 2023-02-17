@@ -1,5 +1,6 @@
 import React from 'react'
 
+// renderizando as informações do Header 
 function Header() {
   return (
     <section className='header'>
