@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<h1 align='center' >
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto TBB Lista de produtos 🛒
 
-## Available Scripts
+<h1/>
 
-In the project directory, you can run:
+## (📱Caso esteja pelo celular é so clicar no link abaixo📱)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-b324-921c34056032.mp4
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sobre o Projeto
 
-### `npm run build`
+- O projeto Lista de produtos foi desenvolvido em cima do teste técnico passado pela empresa The Brooklyn Brothers. O teste consiste em um site onde o usuário pode pesquisar por uma categoria de algum produto e recebe todos os produtos daquela categoria disponíveis, ou simplesmente pode navegar por eles .<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## O que foi passado no desafio:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+•	Criar um componente de listagem de produtos em que seja possível procurar pelo nome e filtrar pela categoria. Veja o exemplo enviado para servir de inspiração.
+•	Utilizar React.
+•	Utilizar o arquivo productsCategory.json como fonte de dados para os produtos (em anexo)
+•	O componente deve ser responsivo.
+•	Criar um repositório no GIT com o código fonte.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Tecnologias utilizadas:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Consumo de uma API passada por eles.
+- [ReactJs](https://pt-br.reactjs.org/)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Google fonts | Icons](https://fonts.google.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Sobre o que foi desenvolvido no projeto:
+👨🏾‍💻 Foram utilizadas metodologias que são aplicadas no mercado de trabalho, principalmente na organização das pastas e o nome de cada uma delas, ja sendo feito pensando em atualizações futuras, com a pesquisa orientada a pastas e não só a arquivos, pois em uma grande aplicação muitos nomes de arquivos podem se repetir.
+ 
+📲 Projeto totalmente repsonsivo, tanto para celulares e tablets, quanto para o desktop !
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔥 Foram feitos diversos commits pensando em mostrar a trajetória do projeto desde seu inicio, com pequenos e descritivos commits.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🎨 Nos foi passado um template para que pudessemos nos inspirar.
 
-## Learn More
+🛒 Foi também utilizada a API que nos passaram para a renderização e buscas dos produtos.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧪 Foram executados testes para que a aplicação possa ter uma maior confiabilidade e desempenho.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Guia de instalação do projeto para a sua máquina !
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+ # Clonar o repositório
+ $ git clone git@github.com:JoaoKeuwe/teste-Kivid.git
 
-### Analyzing the Bundle Size
+ # Entrar no diretório(pasta) da aplicação
+ $ cd testeKivid
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ # Instalar todas as dependencias de desenvolvimento do projeto (necessita ter o Node(npm) instalado)
+ $ npm install
 
-### Making a Progressive Web App
+ # Comando para executar o projeto
+ $ npm start
+ 
+ # Caso não abra direto em seu navegador digitar no campo de busca 
+ $ http://localhost:3000/
+ 
+ # Comando caso queira executar os testes
+ $ npm run test
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+<br>
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deploy do projeto
+Acesse: [Lista de Produtos](https://tbb-technical-test.vercel.app/) 🏠
