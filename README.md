@@ -50,10 +50,10 @@ https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-
 
 ```bash
  # Clonar o repositório
- $ git clone git@github.com:JoaoKeuwe/teste-Kivid.git
+ $ git clone git@github.com:JoaoKeuwe/TBB-technical-test.git
 
  # Entrar no diretório(pasta) da aplicação
- $ cd testeKivid
+ $ cd TBB-technical-test
 
  # Instalar todas as dependencias de desenvolvimento do projeto (necessita ter o Node(npm) instalado)
  $ npm install
