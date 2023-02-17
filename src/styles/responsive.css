@@ -187,6 +187,41 @@
 
 }
 
+@media screen and (max-width: 650px) {
+
+    .options {
+        margin-top: -3.5rem;
+        margin-right: 4rem;
+        font-size: 23px;
+    }
+
+    .results {
+        display: flex;
+        justify-content: center;
+    }
+
+    .maps {
+        width: 25rem;
+
+    }
+
+    .button-filter {
+        width: 10rem;
+    }
+
+    .search-input {
+        width: 15rem;
+        margin-left: -0.5rem;
+    }
+
+    .card-products {
+        width: 18rem;
+        margin: 5rem 5rem 0 0;
+    }
+
+
+}
+
 @media screen and (max-width: 550px) {
 
     .options {
