@@ -6,10 +6,7 @@ Projeto TBB Lista de produtos 🛒
 
 ## (📱Caso esteja pelo celular é so clicar no link abaixo📱)
 
-
-https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-b324-921c34056032.mp4
-
-
+https://user-images.githubusercontent.com/91097315/219524614-b58f26f9-47d4-4878-975f-bde441b22fc2.mp4
 
 ## Sobre o Projeto
 
